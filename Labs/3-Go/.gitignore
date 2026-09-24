@@ -1,0 +1,11 @@
+# Build output
+/bin/
+
+# Test / coverage artifacts
+*.test
+*.out
+coverage.*
+
+# Go workspace file (local only)
+go.work
+go.work.sum
