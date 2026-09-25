@@ -9,3 +9,6 @@ coverage.*
 # Go workspace file (local only)
 go.work
 go.work.sum
+
+# Docs
+./docs/index.html
