@@ -21,8 +21,12 @@ func Hellos(names []string) (map[string]string, error) {
 	}
 
 	namesMap := make(map[string]string)
+	var err error
 	for _, name := range names {
-		namesMap[name] = fmt.Sprintf("Hi, %v. Welcome!", name)
+		namesMap[name], err = Hello(name)
+		if err != nil {
+			return nil, err
+		}
 	}
 
 	return namesMap, nil
