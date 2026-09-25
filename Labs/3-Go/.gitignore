@@ -11,4 +11,4 @@ go.work
 go.work.sum
 
 # Docs
-./docs/index.html
+docs/index.html
