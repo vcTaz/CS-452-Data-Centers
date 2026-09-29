@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_DIR="/home/tsazei01/iperf_client"
+TARGET_DIR="/users/tsazei01/iperf_client"
 SERVER_IP="node0"
 FILE_NAME_PREFIX="iperf_client_report_"
 
@@ -26,7 +26,7 @@ for i in {1..10}; do
     -u \
     -b "${BANDWIDTH}M" \
     -t 10 \
-    -o "${FILE_NAME_PREFIX}${BANDWIDTH}M.txt"
+    > "${FILE_NAME_PREFIX}${BANDWIDTH}M.json"
 
   echo "-----------------------------------"
   echo "---- Ended for ${BANDWIDTH} M: ----"
