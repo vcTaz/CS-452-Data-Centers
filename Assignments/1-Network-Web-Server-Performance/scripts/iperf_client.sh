@@ -26,6 +26,7 @@ for i in {1..10}; do
     -u \
     -b "${BANDWIDTH}M" \
     -t 10 \
+    -J \
     > "${FILE_NAME_PREFIX}${BANDWIDTH}M.json"
 
   echo "-----------------------------------"
