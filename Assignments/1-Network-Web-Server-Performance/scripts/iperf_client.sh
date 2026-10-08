@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_DIR="/users/tsazei01/iperf_client"
+TARGET_DIR="../iperf_client/"
 SERVER_IP="node0"
 FILE_NAME_PREFIX="iperf_client_report_"
 
@@ -18,20 +18,23 @@ echo "----------------------------"
 for i in {1..10}; do
   BANDWIDTH=$((i * 100))
 
-  echo "-----------------------------------"
-  echo "--- Running for ${BANDWIDTH} M: ---"
-  echo "-----------------------------------"
+  for j in {1..10}; do
+    echo "-----------------------------------"
+    echo "--- Running for ${BANDWIDTH} M: ---"
+    echo "-----------------------------------"
 
-  iperf3 -c "$SERVER_IP" \
-    -u \
-    -b "${BANDWIDTH}M" \
-    -t 10 \
-    -J \
-    > "${FILE_NAME_PREFIX}${BANDWIDTH}M.json"
+    iperf3 -c "$SERVER_IP" \
+      -u \
+      -b "${BANDWIDTH}M" \
+      -t 10 \
+      -J \
+      > "${FILE_NAME_PREFIX}${BANDWIDTH}M_run_${j}.json"
 
-  echo "-----------------------------------"
-  echo "---- Ended for ${BANDWIDTH} M: ----"
-  echo "-----------------------------------"
+    echo "-----------------------------------"
+    echo "---- Ended for ${BANDWIDTH} M: ----"
+    echo "-----------------------------------"
+    done
+
 done
 
 echo "----------------------------"
