@@ -16,7 +16,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
     openssh-server \
     vim \
     wget \
-    ca-certificates
+    ca-certificates\
+    sysstat
 
 echo "Installing Vegeta"
 
