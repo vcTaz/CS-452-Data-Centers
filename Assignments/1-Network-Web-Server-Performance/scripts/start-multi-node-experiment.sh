@@ -2,7 +2,7 @@
 set -euo pipefail
 
 BASE="$HOME/CS-452-Data-Centers/Assignments/1-Network-Web-Server-Performance"
-SCRIPT="$BASE/scripts/run_vegeta_multi.sh"
+SCRIPT="$BASE/scripts/vegeta-attack-multi-node.sh"
 
 START_AT=$(($(date +%s) + 20))
 
