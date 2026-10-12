@@ -70,5 +70,7 @@ def slo_capacity(
 def _last_passing(summary: pd.DataFrame, passing: pd.Series) -> int | None:
     ordered = summary.assign(_ok=passing).sort_values('rate')
     failed = ~ordered['_ok'].to_numpy(dtype=bool)
-    cut = int(failed.argmax()) if failed.any() else len(ordered)
-    return int(ordered['rate'].iloc[cut - 1]) if cut else None
+    if not failed.any():
+        return None
+    cut = int(failed.argmax())
+    return int(ordered['rate'].iloc[cut - 1]) if cut else 0
