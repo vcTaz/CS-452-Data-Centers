@@ -18,7 +18,7 @@ CLIENT_COUNT=2
 #       12000 14000 16000 18000 20000
 #       24000 28000 32000 36000 38000)
 
-RATES = (38000 40000 42000 44000)
+RATES=(38000 40000 42000 44000)
 
 BASE_DIR="$HOME/CS-452-Data-Centers/Assignments/1-Network-Web-Server-Performance"
 TARGET_DIR="$BASE_DIR/vegeta-results-multi-node_${ATTACKER_HOSTNAME}/final_$(date +%Y%m%d_%H%M%S)"
