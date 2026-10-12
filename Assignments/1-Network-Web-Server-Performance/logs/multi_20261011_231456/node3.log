@@ -1,0 +1,2032 @@
+Warning: Permanently added 'node0' (ECDSA) to the list of known hosts.
+--- Starting multi-node experiment ---
+Attacker: node3
+Results: /users/tsazei01/CS-452-Data-Centers/Assignments/1-Network-Web-Server-Performance/vegeta-results-multi-node_node3/final_20261011_231515
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         29999, 1000.00, 999.99
+Duration      [total, attack, wait]             29.999s, 29.999s, 306.827µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  156.875µs, 275.604µs, 262.978µs, 325.814µs, 368.527µs, 587.864µs, 1.346ms
+Bytes In      [total, mean]                     9509978, 317.01
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:29999  
+Error Set:
+Completed 2000 RPS - Run 1
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.01, 1000.00
+Duration      [total, attack, wait]             30s, 30s, 367.821µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  153.018µs, 266.892µs, 257.062µs, 311.452µs, 352.365µs, 553.938µs, 1.44ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 2
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.01, 1000.00
+Duration      [total, attack, wait]             30s, 30s, 499.298µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  156.063µs, 271.009µs, 260.247µs, 315.058µs, 360.739µs, 571.528µs, 1.45ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 3
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.02, 1000.00
+Duration      [total, attack, wait]             30s, 29.999s, 444.946µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  154.52µs, 276.953µs, 263.896µs, 327.379µs, 371.673µs, 586.693µs, 1.414ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 4
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.04, 1000.02
+Duration      [total, attack, wait]             29.999s, 29.999s, 429.547µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  156.715µs, 268.936µs, 257.454µs, 315.728µs, 361.794µs, 558.967µs, 1.471ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 5
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         29999, 1000.00, 999.99
+Duration      [total, attack, wait]             29.999s, 29.999s, 302.138µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  163.788µs, 273.662µs, 261.725µs, 322.315µs, 364.684µs, 561.704µs, 1.84ms
+Bytes In      [total, mean]                     9509978, 317.01
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:29999  
+Error Set:
+Completed 2000 RPS - Run 6
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.04, 1000.03
+Duration      [total, attack, wait]             29.999s, 29.999s, 279.556µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  163.046µs, 275.647µs, 262.995µs, 323.456µs, 368.534µs, 585.39µs, 1.338ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 7
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.02, 1000.00
+Duration      [total, attack, wait]             30s, 29.999s, 430.599µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  134.103µs, 258.644µs, 245.224µs, 313.318µs, 371.262µs, 562.926µs, 2.001ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 8
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.01, 999.99
+Duration      [total, attack, wait]             30s, 30s, 456.548µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  168.056µs, 275.561µs, 262.982µs, 321.504µs, 369.401µs, 593.239µs, 1.313ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 9
+-----------------------------------
+Aggregate target: 2000 RPS
+Client target: 1000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         30000, 1000.02, 1000.01
+Duration      [total, attack, wait]             30s, 29.999s, 465.675µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  159.38µs, 278.575µs, 265.508µs, 329.441µs, 373.496µs, 595.656µs, 1.667ms
+Bytes In      [total, mean]                     9510000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:30000  
+Error Set:
+Completed 2000 RPS - Run 10
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         59999, 2000.02, 2000.00
+Duration      [total, attack, wait]             29.999s, 29.999s, 259.448µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  145.974µs, 286.944µs, 260.615µs, 375.438µs, 502.578µs, 735.839µs, 1.333ms
+Bytes In      [total, mean]                     19019978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:59999  
+Error Set:
+Completed 4000 RPS - Run 1
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         59999, 2000.02, 2000.00
+Duration      [total, attack, wait]             29.999s, 29.999s, 213.621µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  137.198µs, 283.366µs, 255.291µs, 366.954µs, 509.672µs, 746.535µs, 1.5ms
+Bytes In      [total, mean]                     19019978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:59999  
+Error Set:
+Completed 4000 RPS - Run 2
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         60000, 2000.01, 2000.00
+Duration      [total, attack, wait]             30s, 30s, 235.332µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  143.48µs, 287.366µs, 259.024µs, 382.161µs, 518.171µs, 739.437µs, 1.645ms
+Bytes In      [total, mean]                     19020000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60000  
+Error Set:
+Completed 4000 RPS - Run 3
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         60000, 2000.01, 1999.99
+Duration      [total, attack, wait]             30s, 30s, 245.501µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  129.012µs, 287.682µs, 260.804µs, 375.166µs, 514.839µs, 745.932µs, 1.619ms
+Bytes In      [total, mean]                     19020000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60000  
+Error Set:
+Completed 4000 RPS - Run 4
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         60000, 2000.07, 2000.05
+Duration      [total, attack, wait]             29.999s, 29.999s, 256.792µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  150.052µs, 288.257µs, 261.383µs, 374.441µs, 506.045µs, 750.167µs, 2.094ms
+Bytes In      [total, mean]                     19020000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60000  
+Error Set:
+Completed 4000 RPS - Run 5
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         59999, 2000.01, 1999.99
+Duration      [total, attack, wait]             30s, 29.999s, 326.584µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  150.633µs, 283.947µs, 257.364µs, 368.03µs, 493.209µs, 728.388µs, 1.947ms
+Bytes In      [total, mean]                     19019978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:59999  
+Error Set:
+Completed 4000 RPS - Run 6
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         60000, 2000.08, 2000.03
+Duration      [total, attack, wait]             29.999s, 29.999s, 633.501µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  141.156µs, 285.335µs, 258.948µs, 373.915µs, 496.246µs, 725.293µs, 2.05ms
+Bytes In      [total, mean]                     19020000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60000  
+Error Set:
+Completed 4000 RPS - Run 7
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         60000, 2000.08, 2000.05
+Duration      [total, attack, wait]             29.999s, 29.999s, 338.316µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  147.197µs, 285.581µs, 258.838µs, 373.284µs, 509.197µs, 740.139µs, 1.929ms
+Bytes In      [total, mean]                     19020000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60000  
+Error Set:
+Completed 4000 RPS - Run 8
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         60000, 2000.02, 2000.00
+Duration      [total, attack, wait]             30s, 30s, 251.242µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  139.462µs, 283.899µs, 256.418µs, 371.024µs, 496.873µs, 739.111µs, 1.589ms
+Bytes In      [total, mean]                     19020000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60000  
+Error Set:
+Completed 4000 RPS - Run 9
+-----------------------------------
+Aggregate target: 4000 RPS
+Client target: 2000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         60000, 2000.01, 2000.00
+Duration      [total, attack, wait]             30s, 30s, 231.355µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  148.88µs, 286.414µs, 259.945µs, 373.384µs, 509.137µs, 738.992µs, 1.858ms
+Bytes In      [total, mean]                     19020000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:60000  
+Error Set:
+Completed 4000 RPS - Run 10
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         90000, 3000.02, 3000.00
+Duration      [total, attack, wait]             30s, 30s, 244.6µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  134.232µs, 318.197µs, 276.455µs, 484.736µs, 607.614µs, 813.976µs, 2.319ms
+Bytes In      [total, mean]                     28530000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:90000  
+Error Set:
+Completed 6000 RPS - Run 1
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         90000, 3000.11, 3000.09
+Duration      [total, attack, wait]             29.999s, 29.999s, 231.114µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.035µs, 313.205µs, 272.787µs, 471.318µs, 593.872µs, 792.221µs, 1.591ms
+Bytes In      [total, mean]                     28530000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:90000  
+Error Set:
+Completed 6000 RPS - Run 2
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         89999, 3000.03, 3000.01
+Duration      [total, attack, wait]             30s, 29.999s, 220.104µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  133.521µs, 323.913µs, 281.359µs, 495.644µs, 607.409µs, 814.397µs, 2.273ms
+Bytes In      [total, mean]                     28529978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:89999  
+Error Set:
+Completed 6000 RPS - Run 3
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         90000, 3000.13, 3000.10
+Duration      [total, attack, wait]             29.999s, 29.999s, 226.866µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  144.873µs, 325.765µs, 282.427µs, 501.266µs, 612.784µs, 812.488µs, 1.612ms
+Bytes In      [total, mean]                     28530000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:90000  
+Error Set:
+Completed 6000 RPS - Run 4
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         89999, 3000.04, 3000.02
+Duration      [total, attack, wait]             30s, 29.999s, 242.466µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  132.359µs, 319.166µs, 276.106µs, 488.098µs, 610.422µs, 812.524µs, 1.596ms
+Bytes In      [total, mean]                     28529978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:89999  
+Error Set:
+Completed 6000 RPS - Run 5
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         89999, 3000.02, 2999.99
+Duration      [total, attack, wait]             30s, 29.999s, 244.59µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  131.878µs, 309.564µs, 269.587µs, 464.72µs, 592.897µs, 792.731µs, 1.723ms
+Bytes In      [total, mean]                     28529978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:89999  
+Error Set:
+Completed 6000 RPS - Run 6
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         90001, 3000.02, 2999.99
+Duration      [total, attack, wait]             30s, 30s, 293.842µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  141.065µs, 329.581µs, 284.598µs, 510.282µs, 622.704µs, 820.294µs, 1.723ms
+Bytes In      [total, mean]                     28530612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:90001  
+Error Set:
+Completed 6000 RPS - Run 7
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         89999, 3000.02, 3000.00
+Duration      [total, attack, wait]             30s, 29.999s, 216.377µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  146.426µs, 325.261µs, 282.267µs, 500.578µs, 608.333µs, 814.536µs, 1.835ms
+Bytes In      [total, mean]                     28529978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:89999  
+Error Set:
+Completed 6000 RPS - Run 8
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         89999, 3000.02, 2999.99
+Duration      [total, attack, wait]             30s, 29.999s, 283.243µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  124.724µs, 310.797µs, 269.283µs, 476.364µs, 594.57µs, 791.143µs, 1.567ms
+Bytes In      [total, mean]                     28529978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:89999  
+Error Set:
+Completed 6000 RPS - Run 9
+-----------------------------------
+Aggregate target: 6000 RPS
+Client target: 3000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         90001, 3000.12, 3000.06
+Duration      [total, attack, wait]             30s, 29.999s, 579.89µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  137.939µs, 319.698µs, 275.612µs, 494.945µs, 606.779µs, 799.935µs, 1.952ms
+Bytes In      [total, mean]                     28530612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:90001  
+Error Set:
+Completed 6000 RPS - Run 10
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         120000, 4000.00, 3999.94
+Duration      [total, attack, wait]             30s, 30s, 470.965µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  125.315µs, 333.618µs, 269.639µs, 561.004µs, 669.042µs, 874.666µs, 2.705ms
+Bytes In      [total, mean]                     38040000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:120000  
+Error Set:
+Completed 8000 RPS - Run 1
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         120000, 4000.04, 4000.01
+Duration      [total, attack, wait]             30s, 30s, 198.774µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  144.111µs, 337.361µs, 275.484µs, 564.044µs, 668.582µs, 870.893µs, 1.987ms
+Bytes In      [total, mean]                     38040000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:120000  
+Error Set:
+Completed 8000 RPS - Run 2
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         120000, 4000.03, 4000.00
+Duration      [total, attack, wait]             30s, 30s, 240.062µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  134.011µs, 336.433µs, 274.388µs, 562.853µs, 665.559µs, 863.698µs, 1.957ms
+Bytes In      [total, mean]                     38040000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:120000  
+Error Set:
+Completed 8000 RPS - Run 3
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         119999, 3999.91, 3999.88
+Duration      [total, attack, wait]             30.001s, 30s, 231.335µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  140.514µs, 341.52µs, 275.304µs, 575.406µs, 683.064µs, 895.707µs, 1.899ms
+Bytes In      [total, mean]                     38039978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:119999  
+Error Set:
+Completed 8000 RPS - Run 4
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         120000, 4000.04, 4000.02
+Duration      [total, attack, wait]             30s, 30s, 192.331µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  140.434µs, 338.271µs, 273.534µs, 567.598µs, 675.392µs, 870.506µs, 1.637ms
+Bytes In      [total, mean]                     38040000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:120000  
+Error Set:
+Completed 8000 RPS - Run 5
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         120000, 4000.02, 3999.98
+Duration      [total, attack, wait]             30s, 30s, 264.397µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  129.634µs, 334.837µs, 271.015µs, 567.987µs, 674.227µs, 866.972µs, 1.755ms
+Bytes In      [total, mean]                     38040000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:120000  
+Error Set:
+Completed 8000 RPS - Run 6
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         120000, 4000.16, 4000.10
+Duration      [total, attack, wait]             29.999s, 29.999s, 381.627µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  138.32µs, 338.72µs, 275.535µs, 564.486µs, 673.077µs, 881.64µs, 2.837ms
+Bytes In      [total, mean]                     38040000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:120000  
+Error Set:
+Completed 8000 RPS - Run 7
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         119999, 3999.90, 3999.87
+Duration      [total, attack, wait]             30.001s, 30s, 261.331µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  139.212µs, 339.194µs, 273.473µs, 573.283µs, 677.94µs, 871.887µs, 2.214ms
+Bytes In      [total, mean]                     38039978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:119999  
+Error Set:
+Completed 8000 RPS - Run 8
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         119999, 4000.03, 3999.96
+Duration      [total, attack, wait]             30s, 30s, 525.067µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.536µs, 336.088µs, 271.833µs, 565.735µs, 674.229µs, 868.236µs, 3.017ms
+Bytes In      [total, mean]                     38039978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:119999  
+Error Set:
+Completed 8000 RPS - Run 9
+-----------------------------------
+Aggregate target: 8000 RPS
+Client target: 4000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         120000, 4000.15, 4000.12
+Duration      [total, attack, wait]             29.999s, 29.999s, 219.121µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  138.741µs, 338.234µs, 273.953µs, 570.683µs, 679.091µs, 871.551µs, 3.585ms
+Bytes In      [total, mean]                     38040000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:120000  
+Error Set:
+Completed 8000 RPS - Run 10
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.03, 4999.99
+Duration      [total, attack, wait]             30s, 30s, 197.441µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  134.472µs, 281.545µs, 236.269µs, 458.331µs, 564.471µs, 765.465µs, 2.794ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 1
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         149995, 4999.88, 4999.84
+Duration      [total, attack, wait]             30s, 30s, 233.028µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  141.787µs, 290.38µs, 240.13µs, 480.276µs, 581.428µs, 784.735µs, 2.228ms
+Bytes In      [total, mean]                     47548710, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:149995  
+Error Set:
+Completed 10000 RPS - Run 2
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.04, 4999.98
+Duration      [total, attack, wait]             30s, 30s, 367.391µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  137.979µs, 283.912µs, 235.42µs, 470.495µs, 574.395µs, 772.404µs, 1.811ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 3
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.02, 4999.97
+Duration      [total, attack, wait]             30s, 30s, 270.028µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  140.143µs, 282.652µs, 233.4µs, 469.351µs, 576.576µs, 777.286µs, 2.701ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 4
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.21, 5000.13
+Duration      [total, attack, wait]             29.999s, 29.999s, 513.075µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  134.172µs, 285.008µs, 237.308µs, 470.342µs, 580.195µs, 783.991µs, 3.669ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 5
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.05, 5000.01
+Duration      [total, attack, wait]             30s, 30s, 205.867µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  136.907µs, 280.216µs, 234.493µs, 456.335µs, 561.729µs, 748.131µs, 1.755ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 6
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.20, 5000.17
+Duration      [total, attack, wait]             29.999s, 29.999s, 200.627µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  133.632µs, 285.42µs, 238.796µs, 466.762µs, 570.221µs, 765.416µs, 3.713ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 7
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.04, 4999.93
+Duration      [total, attack, wait]             30s, 30s, 630.866µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  137.168µs, 283.271µs, 237.22µs, 459.843µs, 564.318µs, 758.284µs, 2.171ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 8
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.03, 4999.94
+Duration      [total, attack, wait]             30s, 30s, 521.079µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  140.875µs, 285.092µs, 235.632µs, 472.875µs, 581.303µs, 786.017µs, 1.94ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 9
+-----------------------------------
+Aggregate target: 10000 RPS
+Client target: 5000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         150000, 5000.04, 5000.00
+Duration      [total, attack, wait]             30s, 30s, 242.356µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  139.102µs, 288.095µs, 243.089µs, 465.357µs, 566.629µs, 757.053µs, 2.41ms
+Bytes In      [total, mean]                     47550000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:150000  
+Error Set:
+Completed 10000 RPS - Run 10
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         180001, 6000.07, 5999.99
+Duration      [total, attack, wait]             30s, 30s, 401.103µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  135.465µs, 298.321µs, 251.773µs, 486.584µs, 571.465µs, 741.506µs, 2.39ms
+Bytes In      [total, mean]                     57060612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180001  
+Error Set:
+Completed 12000 RPS - Run 1
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         180000, 6000.04, 5999.99
+Duration      [total, attack, wait]             30s, 30s, 271.009µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  126.778µs, 296.609µs, 250.475µs, 484.996µs, 571.337µs, 737.819µs, 2.246ms
+Bytes In      [total, mean]                     57060000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180000  
+Error Set:
+Completed 12000 RPS - Run 2
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         180001, 6000.06, 6000.02
+Duration      [total, attack, wait]             30s, 30s, 219.482µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  124.815µs, 283.421µs, 234.238µs, 483.136µs, 568.557µs, 745.222µs, 3.128ms
+Bytes In      [total, mean]                     57060612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180001  
+Error Set:
+Completed 12000 RPS - Run 3
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         180001, 6000.06, 5999.93
+Duration      [total, attack, wait]             30.001s, 30s, 625.696µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  127.049µs, 295.115µs, 248.865µs, 483.337µs, 570.043µs, 741.642µs, 2.994ms
+Bytes In      [total, mean]                     57060612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180001  
+Error Set:
+Completed 12000 RPS - Run 4
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         180001, 6000.05, 6000.01
+Duration      [total, attack, wait]             30s, 30s, 214.102µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  134.543µs, 292.934µs, 245.294µs, 482.667µs, 571.094µs, 740.95µs, 3.211ms
+Bytes In      [total, mean]                     57060612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180001  
+Error Set:
+Completed 12000 RPS - Run 5
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         180001, 6000.04, 5999.98
+Duration      [total, attack, wait]             30s, 30s, 277.481µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  131.057µs, 293.716µs, 245.384µs, 487.679µs, 571.801µs, 743.905µs, 2.143ms
+Bytes In      [total, mean]                     57060612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180001  
+Error Set:
+Completed 12000 RPS - Run 6
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         180000, 6000.04, 5999.99
+Duration      [total, attack, wait]             30s, 30s, 245.501µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  135.915µs, 303.862µs, 254.8µs, 498.271µs, 588.038µs, 762.939µs, 4.841ms
+Bytes In      [total, mean]                     57060000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180000  
+Error Set:
+Completed 12000 RPS - Run 7
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         180000, 6000.03, 5999.99
+Duration      [total, attack, wait]             30s, 30s, 217.278µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  133.19µs, 294.652µs, 247.393µs, 483.623µs, 571.781µs, 740.26µs, 2.952ms
+Bytes In      [total, mean]                     57060000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180000  
+Error Set:
+Completed 12000 RPS - Run 8
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         180000, 6000.04, 6000.00
+Duration      [total, attack, wait]             30s, 30s, 192.792µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  129.704µs, 286.278µs, 239.272µs, 475.499µs, 560.869µs, 730.088µs, 2.269ms
+Bytes In      [total, mean]                     57060000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180000  
+Error Set:
+Completed 12000 RPS - Run 9
+-----------------------------------
+Aggregate target: 12000 RPS
+Client target: 6000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         180000, 6000.04, 6000.00
+Duration      [total, attack, wait]             30s, 30s, 231.986µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  132.238µs, 291.242µs, 243.543µs, 484.484µs, 569.849µs, 738.42µs, 2.657ms
+Bytes In      [total, mean]                     57060000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:180000  
+Error Set:
+Completed 12000 RPS - Run 10
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         210000, 7000.06, 6999.95
+Duration      [total, attack, wait]             30s, 30s, 468.501µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  129.233µs, 290.925µs, 230.191µs, 513.28µs, 587.654µs, 764.501µs, 4.927ms
+Bytes In      [total, mean]                     66570000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210000  
+Error Set:
+Completed 14000 RPS - Run 1
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         210000, 7000.04, 6999.99
+Duration      [total, attack, wait]             30s, 30s, 221.546µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  123.171µs, 279.591µs, 224.33µs, 494.4µs, 563.416µs, 731.039µs, 3.029ms
+Bytes In      [total, mean]                     66570000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210000  
+Error Set:
+Completed 14000 RPS - Run 2
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         210000, 7000.02, 6999.94
+Duration      [total, attack, wait]             30s, 30s, 321.685µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.125µs, 278.918µs, 223.686µs, 493.172µs, 566.201µs, 733.137µs, 2.965ms
+Bytes In      [total, mean]                     66570000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210000  
+Error Set:
+Completed 14000 RPS - Run 3
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         210001, 7000.06, 7000.02
+Duration      [total, attack, wait]             30s, 30s, 163.948µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  117.17µs, 288.753µs, 234.03µs, 503.545µs, 575.824µs, 746.485µs, 3.918ms
+Bytes In      [total, mean]                     66570612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210001  
+Error Set:
+Completed 14000 RPS - Run 4
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         210001, 7000.04, 7000.00
+Duration      [total, attack, wait]             30s, 30s, 173.235µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  125.416µs, 279.823µs, 223.258µs, 496.736µs, 567.258µs, 734.785µs, 2.997ms
+Bytes In      [total, mean]                     66570612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210001  
+Error Set:
+Completed 14000 RPS - Run 5
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         210001, 7000.06, 7000.01
+Duration      [total, attack, wait]             30s, 30s, 219.222µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.906µs, 288.335µs, 228.902µs, 509.481µs, 579.015µs, 750.741µs, 4.337ms
+Bytes In      [total, mean]                     66570612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210001  
+Error Set:
+Completed 14000 RPS - Run 6
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         210000, 7000.04, 7000.00
+Duration      [total, attack, wait]             30s, 30s, 190.588µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.405µs, 284.435µs, 228.401µs, 498.939µs, 570.061µs, 739.106µs, 3.062ms
+Bytes In      [total, mean]                     66570000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210000  
+Error Set:
+Completed 14000 RPS - Run 7
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         210001, 7000.05, 7000.00
+Duration      [total, attack, wait]             30s, 30s, 173.807µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  127.118µs, 292.141µs, 233.682µs, 512.751µs, 585.136µs, 758.084µs, 3.897ms
+Bytes In      [total, mean]                     66570612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210001  
+Error Set:
+Completed 14000 RPS - Run 8
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         209999, 7000.01, 6999.84
+Duration      [total, attack, wait]             30.001s, 30s, 734.791µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.375µs, 284.703µs, 229.417µs, 500.427µs, 570.35µs, 739.762µs, 2.729ms
+Bytes In      [total, mean]                     66569978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:209999  
+Error Set:
+Completed 14000 RPS - Run 9
+-----------------------------------
+Aggregate target: 14000 RPS
+Client target: 7000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         210001, 7000.06, 7000.01
+Duration      [total, attack, wait]             30s, 30s, 194.445µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  131.637µs, 289.134µs, 235.306µs, 499.715µs, 573.623µs, 741.309µs, 3.874ms
+Bytes In      [total, mean]                     66570612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:210001  
+Error Set:
+Completed 14000 RPS - Run 10
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         240000, 8000.07, 8000.00
+Duration      [total, attack, wait]             30s, 30s, 272.642µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  118.042µs, 325.81µs, 259.965µs, 557.308µs, 622.736µs, 794.679µs, 3.752ms
+Bytes In      [total, mean]                     76080000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:240000  
+Error Set:
+Completed 16000 RPS - Run 1
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         240000, 8000.03, 7999.94
+Duration      [total, attack, wait]             30s, 30s, 337.394µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  127.049µs, 322.188µs, 253.059µs, 555.155µs, 623.949µs, 797.737µs, 3.641ms
+Bytes In      [total, mean]                     76080000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:240000  
+Error Set:
+Completed 16000 RPS - Run 2
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         240000, 8000.03, 7999.98
+Duration      [total, attack, wait]             30s, 30s, 195.959µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  132.299µs, 335.903µs, 269.928µs, 570.699µs, 639.387µs, 813.605µs, 4.712ms
+Bytes In      [total, mean]                     76080000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:240000  
+Error Set:
+Completed 16000 RPS - Run 3
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         239998, 8000.25, 8000.19
+Duration      [total, attack, wait]             29.999s, 29.999s, 243.307µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  133.05µs, 370.439µs, 301.77µs, 611.522µs, 676.56µs, 877.932µs, 11.435ms
+Bytes In      [total, mean]                     76079366, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:239998  
+Error Set:
+Completed 16000 RPS - Run 4
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         239998, 7999.98, 7999.87
+Duration      [total, attack, wait]             30s, 30s, 430.228µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.395µs, 321.54µs, 259.454µs, 547.204µs, 611.471µs, 781.553µs, 3.587ms
+Bytes In      [total, mean]                     76079366, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:239998  
+Error Set:
+Completed 16000 RPS - Run 5
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         239999, 8000.01, 7999.88
+Duration      [total, attack, wait]             30s, 30s, 476.155µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  136.527µs, 337.866µs, 271.77µs, 570.925µs, 636.316µs, 811.639µs, 5.228ms
+Bytes In      [total, mean]                     76079978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:239999  
+Error Set:
+Completed 16000 RPS - Run 6
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         240000, 8000.05, 8000.00
+Duration      [total, attack, wait]             30s, 30s, 204.545µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  128.912µs, 318.738µs, 250.777µs, 549.171µs, 617.358µs, 790.791µs, 4.19ms
+Bytes In      [total, mean]                     76080000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:240000  
+Error Set:
+Completed 16000 RPS - Run 7
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         240000, 8000.05, 8000.00
+Duration      [total, attack, wait]             30s, 30s, 181.761µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  132.148µs, 330.571µs, 263.099µs, 564.836µs, 631.326µs, 805.453µs, 4.349ms
+Bytes In      [total, mean]                     76080000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:240000  
+Error Set:
+Completed 16000 RPS - Run 8
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         240000, 8000.07, 8000.01
+Duration      [total, attack, wait]             30s, 30s, 215.385µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  138.45µs, 329.97µs, 262.356µs, 564.488µs, 631.485µs, 807.204µs, 3.874ms
+Bytes In      [total, mean]                     76080000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:240000  
+Error Set:
+Completed 16000 RPS - Run 9
+-----------------------------------
+Aggregate target: 16000 RPS
+Client target: 8000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         240000, 8000.01, 7999.93
+Duration      [total, attack, wait]             30s, 30s, 300.335µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  126.949µs, 330.918µs, 260.882µs, 567.996µs, 633.987µs, 811.902µs, 6.854ms
+Bytes In      [total, mean]                     76080000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:240000  
+Error Set:
+Completed 16000 RPS - Run 10
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         270001, 9000.10, 9000.00
+Duration      [total, attack, wait]             30s, 30s, 328.117µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.605µs, 410.069µs, 359.701µs, 646.042µs, 720.795µs, 930.76µs, 9.01ms
+Bytes In      [total, mean]                     85590612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270001  
+Error Set:
+Completed 18000 RPS - Run 1
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         270001, 9000.03, 8999.93
+Duration      [total, attack, wait]             30s, 30s, 327.335µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  126.398µs, 407.68µs, 360.092µs, 643.488µs, 713.509µs, 917.209µs, 10.765ms
+Bytes In      [total, mean]                     85590612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270001  
+Error Set:
+Completed 18000 RPS - Run 2
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         270000, 9000.00, 8999.90
+Duration      [total, attack, wait]             30s, 30s, 323.618µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  131.757µs, 604.478µs, 404.54µs, 788.666µs, 1.158ms, 5.743ms, 18.394ms
+Bytes In      [total, mean]                     85590000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270000  
+Error Set:
+Completed 18000 RPS - Run 3
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         270001, 9000.07, 8999.98
+Duration      [total, attack, wait]             30s, 30s, 295.626µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  135.906µs, 444.099µs, 400.769µs, 677.098µs, 755.718µs, 1.011ms, 15.076ms
+Bytes In      [total, mean]                     85590612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270001  
+Error Set:
+Completed 18000 RPS - Run 4
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         270000, 9000.00, 8999.90
+Duration      [total, attack, wait]             30s, 30s, 312.618µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  126.398µs, 454.361µs, 400.803µs, 686.872µs, 771.254µs, 1.178ms, 15.687ms
+Bytes In      [total, mean]                     85590000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270000  
+Error Set:
+Completed 18000 RPS - Run 5
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         270000, 9000.06, 8999.97
+Duration      [total, attack, wait]             30s, 30s, 272.262µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  125.937µs, 368.684µs, 314.029µs, 599.306µs, 664.787µs, 835.898µs, 5.773ms
+Bytes In      [total, mean]                     85590000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270000  
+Error Set:
+Completed 18000 RPS - Run 6
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         270000, 9000.08, 8999.96
+Duration      [total, attack, wait]             30s, 30s, 401.364µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  133.29µs, 486.645µs, 427.539µs, 716.512µs, 813.047µs, 1.886ms, 15.592ms
+Bytes In      [total, mean]                     85590000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270000  
+Error Set:
+Completed 18000 RPS - Run 7
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         270001, 9000.05, 8999.98
+Duration      [total, attack, wait]             30s, 30s, 225.915µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  130.204µs, 375.426µs, 320.678µs, 603.94µs, 673.636µs, 858.17µs, 7.957ms
+Bytes In      [total, mean]                     85590612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270001  
+Error Set:
+Completed 18000 RPS - Run 8
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         270000, 9000.06, 9000.01
+Duration      [total, attack, wait]             30s, 30s, 187.903µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  134.653µs, 381.039µs, 327.581µs, 615.205µs, 683.984µs, 862.579µs, 4.753ms
+Bytes In      [total, mean]                     85590000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270000  
+Error Set:
+Completed 18000 RPS - Run 9
+-----------------------------------
+Aggregate target: 18000 RPS
+Client target: 9000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         270001, 9000.05, 8999.80
+Duration      [total, attack, wait]             30.001s, 30s, 826.213µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  123.712µs, 415.404µs, 369.206µs, 647.722µs, 719.557µs, 922.844µs, 10.325ms
+Bytes In      [total, mean]                     85590612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:270001  
+Error Set:
+Completed 18000 RPS - Run 10
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.01, 9999.95
+Duration      [total, attack, wait]             30s, 30s, 167.815µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  118.081µs, 1.415ms, 399.834µs, 5.114ms, 8.457ms, 13.791ms, 33.462ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 1
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.02, 9999.88
+Duration      [total, attack, wait]             30s, 30s, 410.452µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  121.268µs, 1.509ms, 388.058µs, 5.53ms, 9.394ms, 15.286ms, 41.997ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 2
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.03, 9999.94
+Duration      [total, attack, wait]             30s, 30s, 250.21µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  120.216µs, 1.425ms, 402.48µs, 5.119ms, 8.563ms, 13.831ms, 34.101ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 3
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.03, 9999.96
+Duration      [total, attack, wait]             30s, 30s, 191.039µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  122.58µs, 1.477ms, 388.911µs, 5.518ms, 9.021ms, 14.438ms, 41.083ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 4
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         299999, 10000.02, 9999.91
+Duration      [total, attack, wait]             30s, 30s, 353.755µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  120.627µs, 1.468ms, 391.098µs, 5.257ms, 9.118ms, 14.7ms, 40.03ms
+Bytes In      [total, mean]                     95099978, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:299999  
+Error Set:
+Completed 20000 RPS - Run 5
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.06, 9999.98
+Duration      [total, attack, wait]             30s, 30s, 252.224µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.605µs, 1.522ms, 388.894µs, 5.64ms, 9.709ms, 15.425ms, 39.666ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 6
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.07, 9999.92
+Duration      [total, attack, wait]             30s, 30s, 448.262µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  121.028µs, 1.381ms, 397.148µs, 4.876ms, 8.247ms, 13.542ms, 39.181ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 7
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.04, 9999.83
+Duration      [total, attack, wait]             30.001s, 30s, 628.04µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  117.27µs, 1.513ms, 402.249µs, 5.711ms, 9.207ms, 14.596ms, 37.289ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 8
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.00, 9999.85
+Duration      [total, attack, wait]             30s, 30s, 470.144µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  121.137µs, 1.334ms, 403.208µs, 4.49ms, 7.789ms, 13.324ms, 32.417ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 9
+-----------------------------------
+Aggregate target: 20000 RPS
+Client target: 10000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         300000, 10000.00, 9999.85
+Duration      [total, attack, wait]             30s, 30s, 453.042µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  124.644µs, 1.403ms, 426.103µs, 4.949ms, 8.245ms, 13.375ms, 33.839ms
+Bytes In      [total, mean]                     95100000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:300000  
+Error Set:
+Completed 20000 RPS - Run 10
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         360000, 12000.00, 11999.79
+Duration      [total, attack, wait]             30.001s, 30s, 529.996µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.264µs, 1.804ms, 352.987µs, 2.834ms, 13.328ms, 23.462ms, 64.804ms
+Bytes In      [total, mean]                     114120000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360000  
+Error Set:
+Completed 24000 RPS - Run 1
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         360001, 11999.96, 11999.86
+Duration      [total, attack, wait]             30s, 30s, 252.324µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  116.739µs, 1.933ms, 362.59µs, 5.436ms, 14.348ms, 23.5ms, 55.274ms
+Bytes In      [total, mean]                     114120612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360001  
+Error Set:
+Completed 24000 RPS - Run 2
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         359998, 11999.81, 11999.63
+Duration      [total, attack, wait]             30.001s, 30s, 469.803µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.295µs, 1.847ms, 349.816µs, 4.005ms, 13.703ms, 23.418ms, 63.976ms
+Bytes In      [total, mean]                     114119366, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:359998  
+Error Set:
+Completed 24000 RPS - Run 3
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         360001, 12000.06, 11999.99
+Duration      [total, attack, wait]             30s, 30s, 175.931µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  123.482µs, 1.887ms, 356.11µs, 4.95ms, 13.98ms, 23.343ms, 66.175ms
+Bytes In      [total, mean]                     114120612, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360001  
+Error Set:
+Completed 24000 RPS - Run 4
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         360002, 12000.05, 11999.97
+Duration      [total, attack, wait]             30s, 30s, 201.158µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.945µs, 1.953ms, 361.745µs, 5.303ms, 14.603ms, 23.829ms, 56.459ms
+Bytes In      [total, mean]                     114120634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360002  
+Error Set:
+Completed 24000 RPS - Run 5
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         360002, 12000.06, 11999.98
+Duration      [total, attack, wait]             30s, 30s, 198.423µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  118.342µs, 1.873ms, 353.125µs, 3.135ms, 14.173ms, 24.219ms, 59.749ms
+Bytes In      [total, mean]                     114120634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360002  
+Error Set:
+Completed 24000 RPS - Run 6
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         360002, 12000.06, 11999.98
+Duration      [total, attack, wait]             30s, 30s, 195.999µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  123.011µs, 1.831ms, 354.995µs, 3.63ms, 13.631ms, 23.133ms, 60.797ms
+Bytes In      [total, mean]                     114120634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360002  
+Error Set:
+Completed 24000 RPS - Run 7
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         360002, 12000.05, 11999.86
+Duration      [total, attack, wait]             30.001s, 30s, 464.353µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  123.092µs, 1.884ms, 351.055µs, 4.042ms, 14.095ms, 23.733ms, 66.099ms
+Bytes In      [total, mean]                     114120634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360002  
+Error Set:
+Completed 24000 RPS - Run 8
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         360002, 12000.06, 11999.97
+Duration      [total, attack, wait]             30s, 30s, 215.265µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  118.743µs, 1.809ms, 355.586µs, 5.059ms, 13.109ms, 22.093ms, 56.694ms
+Bytes In      [total, mean]                     114120634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360002  
+Error Set:
+Completed 24000 RPS - Run 9
+-----------------------------------
+Aggregate target: 24000 RPS
+Client target: 12000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         360002, 12000.11, 11999.85
+Duration      [total, attack, wait]             30.001s, 30s, 647.167µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  120.346µs, 1.879ms, 358.952µs, 4.228ms, 14.05ms, 23.492ms, 60.707ms
+Bytes In      [total, mean]                     114120634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:360002  
+Error Set:
+Completed 24000 RPS - Run 10
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         420004, 14000.12, 13999.90
+Duration      [total, attack, wait]             30s, 30s, 461.828µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  120.125µs, 6.653ms, 3.511ms, 17.171ms, 20.851ms, 32.515ms, 192.485ms
+Bytes In      [total, mean]                     133141268, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:420004  
+Error Set:
+Completed 28000 RPS - Run 1
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         420004, 14000.16, 13999.99
+Duration      [total, attack, wait]             30s, 30s, 346.17µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  117.691µs, 3.922ms, 1.131ms, 11.709ms, 16.054ms, 25.825ms, 130.614ms
+Bytes In      [total, mean]                     133141268, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:420004  
+Error Set:
+Completed 28000 RPS - Run 2
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         420002, 13999.65, 13997.39
+Duration      [total, attack, wait]             30.006s, 30.001s, 4.845ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.454µs, 7.519ms, 5.629ms, 17.603ms, 21.538ms, 33.18ms, 156.578ms
+Bytes In      [total, mean]                     133140634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:420002  
+Error Set:
+Completed 28000 RPS - Run 3
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         420003, 13999.44, 13998.48
+Duration      [total, attack, wait]             30.003s, 30.001s, 2.05ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  117.741µs, 6.805ms, 4.441ms, 16.824ms, 20.659ms, 31.228ms, 187.895ms
+Bytes In      [total, mean]                     133141246, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:420003  
+Error Set:
+Completed 28000 RPS - Run 4
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         419992, 13999.66, 13999.15
+Duration      [total, attack, wait]             30.001s, 30s, 1.102ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.134µs, 7.286ms, 4.101ms, 17.035ms, 22.199ms, 35.924ms, 245.285ms
+Bytes In      [total, mean]                     133137464, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:419992  
+Error Set:
+Completed 28000 RPS - Run 5
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         420004, 13998.62, 13997.44
+Duration      [total, attack, wait]             30.006s, 30.003s, 2.537ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.876µs, 7.089ms, 3.998ms, 16.338ms, 21.66ms, 37.167ms, 238.17ms
+Bytes In      [total, mean]                     133141268, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:420004  
+Error Set:
+Completed 28000 RPS - Run 6
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         420002, 13999.65, 13996.31
+Duration      [total, attack, wait]             30.008s, 30.001s, 7.151ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  113.644µs, 5.786ms, 2.625ms, 14.519ms, 19.194ms, 31.078ms, 187.219ms
+Bytes In      [total, mean]                     133140634, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:420002  
+Error Set:
+Completed 28000 RPS - Run 7
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         419996, 13999.59, 13999.33
+Duration      [total, attack, wait]             30.001s, 30.001s, 545.526µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.374µs, 6.395ms, 2.954ms, 16.211ms, 20.506ms, 32.499ms, 226.62ms
+Bytes In      [total, mean]                     133138732, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:419996  
+Error Set:
+Completed 28000 RPS - Run 8
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         420004, 13999.42, 13997.05
+Duration      [total, attack, wait]             30.007s, 30.002s, 5.069ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  117µs, 6.952ms, 3.399ms, 16.421ms, 21.6ms, 35.399ms, 266.552ms
+Bytes In      [total, mean]                     133141268, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:420004  
+Error Set:
+Completed 28000 RPS - Run 9
+-----------------------------------
+Aggregate target: 28000 RPS
+Client target: 14000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         419981, 13998.61, 13995.63
+Duration      [total, attack, wait]             30.008s, 30.002s, 6.399ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  113.213µs, 8.507ms, 6.598ms, 19.374ms, 22.7ms, 37.708ms, 217.642ms
+Bytes In      [total, mean]                     133134272, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:419981  
+Error Set:
+Completed 28000 RPS - Run 10
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         480000, 16000.03, 15995.89
+Duration      [total, attack, wait]             30.008s, 30s, 7.766ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  112.421µs, 10.875ms, 9.157ms, 22.331ms, 25.514ms, 38.223ms, 232.08ms
+Bytes In      [total, mean]                     152160000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:480000  
+Error Set:
+Completed 32000 RPS - Run 1
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         479924, 15997.26, 15995.11
+Duration      [total, attack, wait]             30.004s, 30s, 4.035ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  113.053µs, 11.795ms, 9.695ms, 23.543ms, 26.91ms, 42.114ms, 267.173ms
+Bytes In      [total, mean]                     152135908, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:479924  
+Error Set:
+Completed 32000 RPS - Run 2
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         480000, 15998.99, 15995.13
+Duration      [total, attack, wait]             30.009s, 30.002s, 7.245ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  115.747µs, 11.446ms, 9.768ms, 23.276ms, 26.168ms, 39.13ms, 261.411ms
+Bytes In      [total, mean]                     152160000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:480000  
+Error Set:
+Completed 32000 RPS - Run 3
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         479998, 15998.99, 15995.10
+Duration      [total, attack, wait]             30.009s, 30.002s, 7.29ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  107.712µs, 10.586ms, 8.816ms, 22.529ms, 26.103ms, 42.343ms, 285.26ms
+Bytes In      [total, mean]                     152159366, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:479998  
+Error Set:
+Completed 32000 RPS - Run 4
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         479984, 15999.19, 15993.72
+Duration      [total, attack, wait]             30.011s, 30.001s, 10.276ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  113.333µs, 12.324ms, 10.271ms, 24.539ms, 27.629ms, 46.015ms, 310.272ms
+Bytes In      [total, mean]                     152154928, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:479984  
+Error Set:
+Completed 32000 RPS - Run 5
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         480000, 15998.96, 15993.68
+Duration      [total, attack, wait]             30.012s, 30.002s, 9.911ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  112.251µs, 11.908ms, 10.08ms, 23.527ms, 27.712ms, 50.968ms, 294.754ms
+Bytes In      [total, mean]                     152160000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:480000  
+Error Set:
+Completed 32000 RPS - Run 6
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         480000, 16000.00, 15993.44
+Duration      [total, attack, wait]             30.012s, 30s, 12.301ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  116.188µs, 9.646ms, 7.839ms, 21.196ms, 24.88ms, 37.371ms, 211.722ms
+Bytes In      [total, mean]                     152160000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:480000  
+Error Set:
+Completed 32000 RPS - Run 7
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         479983, 15996.51, 15994.70
+Duration      [total, attack, wait]             30.009s, 30.005s, 3.398ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  110.798µs, 12.943ms, 10.982ms, 24.603ms, 29.899ms, 55.215ms, 326.23ms
+Bytes In      [total, mean]                     152154906, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:479983  
+Error Set:
+Completed 32000 RPS - Run 8
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         479926, 15997.22, 15995.77
+Duration      [total, attack, wait]             30.003s, 30.001s, 2.723ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  108.313µs, 10.366ms, 8.557ms, 22.343ms, 26.332ms, 43.195ms, 310.446ms
+Bytes In      [total, mean]                     152136542, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:479926  
+Error Set:
+Completed 32000 RPS - Run 9
+-----------------------------------
+Aggregate target: 32000 RPS
+Client target: 16000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         480000, 16000.06, 15998.92
+Duration      [total, attack, wait]             30.002s, 30s, 2.138ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  104.116µs, 10.559ms, 8.729ms, 21.849ms, 25.752ms, 37.031ms, 202.353ms
+Bytes In      [total, mean]                     152160000, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:480000  
+Error Set:
+Completed 32000 RPS - Run 10
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         540005, 17998.20, 17992.62
+Duration      [total, attack, wait]             30.013s, 30.003s, 9.305ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  105.398µs, 15.263ms, 12.901ms, 26.396ms, 34.474ms, 76.112ms, 385.519ms
+Bytes In      [total, mean]                     171181880, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:540005  
+Error Set:
+Completed 36000 RPS - Run 1
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         539992, 17996.08, 17995.84
+Duration      [total, attack, wait]             30.006s, 30.006s, 392.578µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  109.936µs, 14.21ms, 11.641ms, 27.408ms, 31.518ms, 63.527ms, 455.588ms
+Bytes In      [total, mean]                     171177464, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:539992  
+Error Set:
+Completed 36000 RPS - Run 2
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         539997, 17997.53, 17996.08
+Duration      [total, attack, wait]             30.006s, 30.004s, 2.425ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  112.141µs, 15.286ms, 12.602ms, 28.867ms, 33.023ms, 62.022ms, 341.91ms
+Bytes In      [total, mean]                     171179344, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:539997  
+Error Set:
+Completed 36000 RPS - Run 3
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         540005, 18000.14, 17996.78
+Duration      [total, attack, wait]             30.006s, 30s, 5.601ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  116.579µs, 15.25ms, 12.368ms, 29.112ms, 32.529ms, 60.352ms, 517.233ms
+Bytes In      [total, mean]                     171181880, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:540005  
+Error Set:
+Completed 36000 RPS - Run 4
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         540006, 17996.48, 17995.03
+Duration      [total, attack, wait]             30.009s, 30.006s, 2.426ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  115.848µs, 14.735ms, 12.084ms, 27.534ms, 30.938ms, 55.62ms, 513.142ms
+Bytes In      [total, mean]                     171181902, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:540006  
+Error Set:
+Completed 36000 RPS - Run 5
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 6
+-----------------------------------
+Requests      [total, rate, throughput]         539983, 17997.56, 17995.22
+Duration      [total, attack, wait]             30.007s, 30.003s, 3.91ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  116.93µs, 15.054ms, 12.617ms, 26.404ms, 33.441ms, 72.941ms, 353.802ms
+Bytes In      [total, mean]                     171174906, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:539983  
+Error Set:
+Completed 36000 RPS - Run 6
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 7
+-----------------------------------
+Requests      [total, rate, throughput]         540006, 17996.42, 17991.06
+Duration      [total, attack, wait]             30.015s, 30.006s, 8.942ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  113.303µs, 15.02ms, 12.476ms, 28.757ms, 33.107ms, 61.765ms, 464.442ms
+Bytes In      [total, mean]                     171181902, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:540006  
+Error Set:
+Completed 36000 RPS - Run 7
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 8
+-----------------------------------
+Requests      [total, rate, throughput]         540006, 17999.00, 17992.87
+Duration      [total, attack, wait]             30.012s, 30.002s, 10.236ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  119.284µs, 14.246ms, 11.725ms, 26.815ms, 29.643ms, 46.468ms, 621.158ms
+Bytes In      [total, mean]                     171181902, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:540006  
+Error Set:
+Completed 36000 RPS - Run 8
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 9
+-----------------------------------
+Requests      [total, rate, throughput]         539996, 17997.40, 17995.42
+Duration      [total, attack, wait]             30.007s, 30.004s, 3.302ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  112.952µs, 15.442ms, 12.668ms, 28.983ms, 32.721ms, 62.403ms, 484.483ms
+Bytes In      [total, mean]                     171178732, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:539996  
+Error Set:
+Completed 36000 RPS - Run 9
+-----------------------------------
+Aggregate target: 36000 RPS
+Client target: 18000 RPS
+Run: 10
+-----------------------------------
+Requests      [total, rate, throughput]         539927, 17995.99, 17992.65
+Duration      [total, attack, wait]             30.008s, 30.003s, 5.563ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  111.77µs, 14.61ms, 11.99ms, 27.633ms, 32.194ms, 62.969ms, 414.026ms
+Bytes In      [total, mean]                     171157154, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:539927  
+Error Set:
+Completed 36000 RPS - Run 10
+-----------------------------------
+Aggregate target: 38000 RPS
+Client target: 19000 RPS
+Run: 1
+-----------------------------------
+Requests      [total, rate, throughput]         570005, 18999.30, 18993.11
+Duration      [total, attack, wait]             30.011s, 30.001s, 9.766ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  112.471µs, 16.595ms, 11.564ms, 26.639ms, 35.029ms, 70.893ms, 3.859s
+Bytes In      [total, mean]                     180691880, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:570005  
+Error Set:
+Completed 38000 RPS - Run 1
+-----------------------------------
+Aggregate target: 38000 RPS
+Client target: 19000 RPS
+Run: 2
+-----------------------------------
+Requests      [total, rate, throughput]         569967, 18995.35, 18991.47
+Duration      [total, attack, wait]             30.012s, 30.006s, 6.123ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  113.283µs, 17.608ms, 14.291ms, 32.702ms, 36.253ms, 71.727ms, 922.774ms
+Bytes In      [total, mean]                     180679834, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:569967  
+Error Set:
+Completed 38000 RPS - Run 2
+-----------------------------------
+Aggregate target: 38000 RPS
+Client target: 19000 RPS
+Run: 3
+-----------------------------------
+Requests      [total, rate, throughput]         569996, 18997.55, 18997.06
+Duration      [total, attack, wait]             30.004s, 30.004s, 777.431µs
+Latencies     [min, mean, 50, 90, 95, 99, max]  108.895µs, 13.572ms, 10.225ms, 23.844ms, 30.368ms, 124.004ms, 1.7s
+Bytes In      [total, mean]                     180688732, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:569996  
+Error Set:
+Completed 38000 RPS - Run 3
+-----------------------------------
+Aggregate target: 38000 RPS
+Client target: 19000 RPS
+Run: 4
+-----------------------------------
+Requests      [total, rate, throughput]         570004, 18998.15, 18995.21
+Duration      [total, attack, wait]             30.008s, 30.003s, 4.647ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  120.326µs, 13.179ms, 11.172ms, 25.637ms, 32.993ms, 63.245ms, 355.622ms
+Bytes In      [total, mean]                     180691268, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:570004  
+Error Set:
+Completed 38000 RPS - Run 4
+-----------------------------------
+Aggregate target: 38000 RPS
+Client target: 19000 RPS
+Run: 5
+-----------------------------------
+Requests      [total, rate, throughput]         569972, 18995.86, 18993.34
+Duration      [total, attack, wait]             30.009s, 30.005s, 3.969ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  123.031µs, 14.521ms, 12.198ms, 27.851ms, 36.871ms, 101.947ms, 470.612ms
+Bytes In      [total, mean]                     180681124, 317.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes
