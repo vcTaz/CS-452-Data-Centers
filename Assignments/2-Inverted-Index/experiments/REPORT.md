@@ -2,41 +2,41 @@
 
 ## Implementation and correctness
 
-The mapper splits on non-Unicode-letter characters and emits case-sensitive word/filename pairs. The reducer removes duplicate filenames, sorts them, and returns `count filenames`. Part A corrected the reducer format and used basename filenames to match the supplied expected output. The supplied corpus test passes. The complete Go framework test suite also passes.
+The mapper splits text at characters that are not Unicode letters. It emits case-sensitive word and filename pairs. The reducer removes duplicate filenames, sorts them, and returns `count filenames`. Filenames exclude directory paths to match the supplied expected output. The corpus test and the Go framework tests pass.
 
 ## Method
 
 Machine: AMD Ryzen 7 7735U (8 cores, 16 logical CPUs); Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41; go version go1.27.1 linux/amd64. CPU affinity permits 16 logical CPUs. Runs used the existing framework unchanged, with three reduce partitions.
 
-Built the executable once, excluding compilation from timing. Each trial starts a fresh master, waits for its socket, and launches independent worker processes. Timing spans master launch through master exit, including registration, scheduling, map/reduce work, shutdown RPCs, and final merge. Remaining idle worker processes are terminated outside timing. The framework uses Unix-domain RPC sockets, so the README’s `localhost:port` arguments are actually local socket filenames, not TCP connections.
+The script builds the executable before timing. Each trial starts a distributed master, waits for its socket, and launches separate worker processes. Timing starts at master launch and ends at master exit. It includes worker registration, scheduling, map and reduce tasks, worker shutdown RPCs, and the final merge. The script then terminates any idle workers. The framework uses Unix-domain RPC sockets. The README arguments such as `localhost:7777` name local socket files.
 
-Used alphabetically sorted filename prefixes of 1, 4, 8, and 16 files. Each configuration has three trials, shuffled with seed 452. The (4 workers, 16 documents) measurements are shared by both plots. Each trial has an isolated temporary working directory. All 21 distributed output SHA-256 hashes match the corresponding sequential baseline. Logs and raw timings are retained. File-system caches were not flushed; these are local warm-cache measurements on a shared, active machine, not isolated cluster benchmarks.
+The datasets contain the first 1, 4, 8, or 16 files in alphabetical filename order. Each configuration has three trials. The script shuffles trial order with seed 452 and gives each trial a separate temporary directory. Both plots use the same measurements for four workers and 16 documents. All 21 distributed outputs match their sequential baselines by SHA-256 hash. Sequential runs check correctness only and do not contribute timings. The repository includes logs and raw timings. The script does not flush file-system caches, and other activity on the machine may affect the measurements.
 
 ## Results
 
 ![Execution time versus workers and corpus size](performance.png)
 
-Error bars show the observed minimum and maximum; points show medians. Three repetitions describe variability but do not establish statistical significance.
+Points show median times. Error bars show the minimum and maximum across three trials.
 
-| Workers | Documents | Input MiB | Median seconds | Min–max seconds |
+| Workers | Documents | Input MiB | Median seconds | Minimum to maximum seconds |
 |---:|---:|---:|---:|---:|
-| 1 | 16 | 15.370 | 4.102 | 4.099–4.132 |
-| 2 | 16 | 15.370 | 4.139 | 4.099–4.141 |
-| 4 | 16 | 15.370 | 4.140 | 4.136–4.145 |
-| 8 | 16 | 15.370 | 4.138 | 4.094–4.142 |
-| 4 | 1 | 0.132 | 4.043 | 4.032–4.043 |
-| 4 | 4 | 2.252 | 4.038 | 4.034–4.039 |
-| 4 | 8 | 4.721 | 4.083 | 4.046–4.087 |
+| 1 | 16 | 15.370 | 4.102 | 4.099 to 4.132 |
+| 2 | 16 | 15.370 | 4.139 | 4.099 to 4.141 |
+| 4 | 16 | 15.370 | 4.140 | 4.136 to 4.145 |
+| 8 | 16 | 15.370 | 4.138 | 4.094 to 4.142 |
+| 4 | 1 | 0.132 | 4.043 | 4.032 to 4.043 |
+| 4 | 4 | 2.252 | 4.038 | 4.034 to 4.039 |
+| 4 | 8 | 4.721 | 4.083 | 4.046 to 4.087 |
 
 ## Interpretation
 
-Increasing workers from 1 to 8 changes median execution time from 4.102 to 4.138 seconds (0.99× speedup). This measures the supplied scheduler, whose behavior limits what can be concluded about worker scalability. It launches RPC goroutines for every unfinished task, distributes them round-robin, and checks completion only once per second. A single worker can therefore execute multiple task RPCs concurrently and already use several cores. Workers are not restricted to one in-flight task. Increasing process count does not correspond to increasing available task concurrency from one to eight.
+Increasing workers from 1 to 8 changes median execution time from 4.102 to 4.138 seconds. The speedup is 0.99 times, so extra worker processes provide no improvement in these trials. The scheduler launches RPC goroutines for every unfinished task and assigns them round-robin. It checks completion once per second. Each worker can execute several task RPCs at once, so even one worker process can use multiple cores. Worker count therefore does not set the number of concurrent tasks.
 
-The scheduler also reads/writes its completion flags without synchronization and may resubmit an in-flight task after one second. These are framework limitations; successful hash comparisons in these runs do not prove the scheduler is race-free. Repeated execution can add overhead or contend on intermediate files. No scheduler changes or map-side deduplication optimizations were applied, to preserve the implementation being evaluated.
+The scheduler reads and writes completion flags without synchronization. It may also resubmit a task that has not finished after one second. Duplicate tasks can add work and write to the same intermediate files. Matching outputs do not prove that the scheduler has no races. These experiments leave the scheduler unchanged and remove duplicate filenames only in the reducer.
 
-With four workers, increasing the corpus from 1 to 16 documents changes median time from 4.043 to 4.140 seconds (1.02×). Compare input bytes as well as file count: the books have unequal sizes. Over this range the fixed startup and one-second polling costs prevent interpreting the results as a clean asymptotic scaling law. The observed time increase is sub-linear relative to file count; this does not demonstrate inherently sub-linear computational complexity.
+With four workers, increasing the corpus from 1 to 16 documents changes median time from 4.043 to 4.140 seconds, a factor of 1.02. Time grows less than file count over this range. The books differ in size, so the table also gives input bytes. Startup and one-second completion checks can obscure changes in processing time. These results do not establish how execution time scales for larger datasets.
 
-Only three reducers can run distinct reduce partitions, regardless of additional workers. Map tasks are whole files with unequal sizes; the largest file can dominate a phase. Serialization, shared local storage, memory allocation/garbage collection, and the serial final merge also constrain speedup. These local results do not measure network overhead or multi-machine scalability.
+There are only three reduce partitions, which limits useful parallelism during the reduce phase. Each map task processes a whole file, so large books can delay that phase. Serialization, shared storage, memory allocation, garbage collection, and the serial final merge can also limit speedup. These experiments use one machine and do not measure network costs between machines.
 
 ## Reproduce
 
@@ -53,4 +53,4 @@ python3 experiments/run.py
 python3 experiments/analyze.py  # requires matplotlib
 ```
 
-The assignment says “three performance experiments” but enumerates only two. Both listed experiments are covered here.
+The assignment asks for three performance experiments but lists two. This report covers both listed experiments.
