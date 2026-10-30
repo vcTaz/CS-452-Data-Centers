@@ -1,0 +1,86 @@
+/tmp/ii-exp-lmxsw5jy/run16/master.sock: Starting Map/Reduce task iiseq
+Schedule: 16 Map tasks (3 I/Os)
+0
+RunWorker /tmp/ii-exp-lmxsw5jy/run16/w0.sock
+RunWorker /tmp/ii-exp-lmxsw5jy/run16/w3.sock
+RunWorker /tmp/ii-exp-lmxsw5jy/run16/w1.sock
+RunWorker /tmp/ii-exp-lmxsw5jy/run16/w2.sock
+Register: worker /tmp/ii-exp-lmxsw5jy/run16/w0.sock
+Register: worker /tmp/ii-exp-lmxsw5jy/run16/w3.sock
+Register: worker /tmp/ii-exp-lmxsw5jy/run16/w2.sock
+Register: worker /tmp/ii-exp-lmxsw5jy/run16/w1.sock
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: given Map task #1 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-dorian_gray.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: given Map task #15 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-war_and_peace.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: given Map task #10 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-moby_dick.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: given Map task #6 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-grimm.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: given Map task #7 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-huckleberry_finn.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: given Map task #8 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-les_miserables.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: given Map task #12 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-tale_of_two_cities.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: given Map task #5 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-great_expectations.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: given Map task #9 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-metamorphosis.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: given Map task #13 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-tom_sawyer.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: given Map task #2 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-dracula.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: given Map task #3 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-emma.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: given Map task #4 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-frankenstein.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: given Map task #14 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-ulysses.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: given Map task #11 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-sherlock_holmes.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: Map task #9 done
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: Map task #13 done
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: Map task #4 done
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: Map task #1 done
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: Map task #6 done
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: Map task #11 done
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: Map task #7 done
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: Map task #3 done
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: Map task #12 done
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: Map task #5 done
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: Map task #2 done
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: Map task #10 done
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: Map task #14 done
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: Map task #8 done
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: Map task #15 done
+4
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: given Map task #0 on file /home/taz/University/ucy/CS/452-Data-Centers/CS-452-Data-Centers/Assignments/2-Inverted-Index/starter/test/data/pg-being_ernest.txt (nios: 3)
+/tmp/ii-exp-lmxsw5jy/run16/w0.sock: Map task #0 done
+Schedule: Map phase done
+Schedule: 3 Reduce tasks (16 I/Os)
+4
+4
+4
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: given Reduce task #0 on file  (nios: 16)
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: given Reduce task #2 on file  (nios: 16)
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: given Reduce task #1 on file  (nios: 16)
+/tmp/ii-exp-lmxsw5jy/run16/w3.sock: Reduce task #0 done
+/tmp/ii-exp-lmxsw5jy/run16/w1.sock: Reduce task #2 done
+/tmp/ii-exp-lmxsw5jy/run16/w2.sock: Reduce task #1 done
+Schedule: Reduce phase done
+Master: shutdown worker /tmp/ii-exp-lmxsw5jy/run16/w0.sock
+Shutdown /tmp/ii-exp-lmxsw5jy/run16/w0.sock
+Master: shutdown worker /tmp/ii-exp-lmxsw5jy/run16/w3.sock
+Shutdown /tmp/ii-exp-lmxsw5jy/run16/w3.sock
+Master: shutdown worker /tmp/ii-exp-lmxsw5jy/run16/w2.sock
+Shutdown /tmp/ii-exp-lmxsw5jy/run16/w2.sock
+Master: shutdown worker /tmp/ii-exp-lmxsw5jy/run16/w1.sock
+Shutdown /tmp/ii-exp-lmxsw5jy/run16/w1.sock
+Shutdown: registration server
+RegistrationServer: accept error accept unix /tmp/ii-exp-lmxsw5jy/run16/master.sock: use of closed network connectionRegistrationServer: done
+cleanupRegistration: done
+Merge phaseMerge: read mrtmp.iiseq-res-0
+Merge: read mrtmp.iiseq-res-1
+Merge: read mrtmp.iiseq-res-2
+/tmp/ii-exp-lmxsw5jy/run16/master.sock: Map/Reduce task completed

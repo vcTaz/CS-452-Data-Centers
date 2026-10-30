@@ -1,0 +1,3 @@
+?   	cs452/cmd/invertedindex	[no test files]
+?   	cs452/cmd/wordcount	[no test files]
+ok  	cs452/internal/mapreduce	37.734s
