@@ -28,6 +28,8 @@ for ax, xs, configs, label in [
 fig.suptitle('Inverted index: median and observed range of 3 runs')
 fig.savefig(OUT / 'performance.png', dpi=180)
 fig.savefig(OUT / 'performance.svg')
+svg = OUT / 'performance.svg'
+svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines()) + '\n')
 lines = ['# Assignment 2: Evaluating the inverted index', '',
 '## Implementation and correctness', '',
 'The mapper splits on non-Unicode-letter characters and emits case-sensitive word/filename pairs. The reducer removes duplicate filenames, sorts them, and returns `count filenames`. Part A corrected the reducer format and used basename filenames to match the supplied expected output. The supplied corpus test passes. The complete Go framework test suite also passes.', '',
