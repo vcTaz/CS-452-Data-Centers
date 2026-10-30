@@ -1,0 +1,76 @@
+{
+  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+  "cpu": "",
+  "logical_cpus": 16,
+  "affinity_cpus": 16,
+  "go": "go version go1.27.1 linux/amd64",
+  "files": [
+    {
+      "name": "pg-being_ernest.txt",
+      "bytes": 138885
+    },
+    {
+      "name": "pg-dorian_gray.txt",
+      "bytes": 453168
+    },
+    {
+      "name": "pg-dracula.txt",
+      "bytes": 867149
+    },
+    {
+      "name": "pg-emma.txt",
+      "bytes": 902300
+    },
+    {
+      "name": "pg-frankenstein.txt",
+      "bytes": 441033
+    },
+    {
+      "name": "pg-great_expectations.txt",
+      "bytes": 1013364
+    },
+    {
+      "name": "pg-grimm.txt",
+      "bytes": 540174
+    },
+    {
+      "name": "pg-huckleberry_finn.txt",
+      "bytes": 594262
+    },
+    {
+      "name": "pg-les_miserables.txt",
+      "bytes": 3254532
+    },
+    {
+      "name": "pg-metamorphosis.txt",
+      "bytes": 139054
+    },
+    {
+      "name": "pg-moby_dick.txt",
+      "bytes": 1235185
+    },
+    {
+      "name": "pg-sherlock_holmes.txt",
+      "bytes": 581863
+    },
+    {
+      "name": "pg-tale_of_two_cities.txt",
+      "bytes": 776644
+    },
+    {
+      "name": "pg-tom_sawyer.txt",
+      "bytes": 412665
+    },
+    {
+      "name": "pg-ulysses.txt",
+      "bytes": 1539992
+    },
+    {
+      "name": "pg-war_and_peace.txt",
+      "bytes": 3226621
+    }
+  ],
+  "repetitions": 3,
+  "seed": 452,
+  "reducers": 3
+}
